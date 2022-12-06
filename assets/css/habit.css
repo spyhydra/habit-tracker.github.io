@@ -1,0 +1,97 @@
+
+.box{
+    height: 13vh;
+    width: 50%;
+    background-color: rgb(219, 213, 213);
+    margin-top: 4vh;
+    position: relative;
+    border-radius: 22px;
+    border-radius: 10px 112px 10px 10px;
+    -moz-border-radius: 10px 112px 10px 10px;
+    -webkit-border-radius: 10px 112px 10px 10px;
+    /* border: 0px solid #000000; */
+    -webkit-box-shadow: 13px 20px 28px 8px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 13px 20px 28px 8px rgba(0,0,0,0.75);
+    border-radius: 10px 30px 10px 10px;
+    -moz-border-radius: 10px 30px 10px 10px;
+    -webkit-border-radius: 10px 30px 10px 10px;
+    border: 0px solid #000000;
+    box-shadow: 13px 20px 28px 8px rgb(0 0 0 / 75%);
+    background: rgb(122,175,217);
+    background: linear-gradient(90deg, rgba(122,175,217,1) 0%, rgba(206,198,203,1) 97%, rgba(101,84,130,1) 100%);
+}
+
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+}
+
+#delete{
+    margin-top: 5pc;
+    margin-left:2pc ;
+}
+.week{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(242, 178, 60, 0.782);
+    
+    width: 90pc;
+    margin-top: 40px;
+}
+.week-main{
+    
+    height: 5pc;
+    width: 85pc;
+    display: flex;
+    border: 3px solid #000000;
+    margin-top: 3pc ;
+    margin-bottom: 8px;
+}
+.habit{
+    margin-top:28px ;
+   
+    font-family: "Lucida Console", "Courier New", monospace;
+    display: flex;
+}
+body{
+    background-image: url('/images/back.png');
+    background-size: cover;
+
+}
+.date{
+    height: 51px;
+    width: 89px;
+    background-color: #ffeb3b;
+    margin-left: 20px;
+
+
+}
+#done{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+   
+}
+
+
+.navbar1 {
+
+    overflow: hidden;
+    width: 220px;
+    margin: auto;
+  }
+  /* Style the links inside the navigation bar */
+  .navbar1 a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
